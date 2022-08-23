@@ -1,0 +1,261 @@
+html {
+  scroll-behavior: smooth;
+}
+section {
+  padding-top: 5rem;
+}
+
+
+.link-contact {
+  font-size: small;
+  color: rgb(219, 219, 219);
+}
+
+.link-contact:hover{
+  font-size: small;
+  color: whitesmoke !important;
+  text-decoration: none;
+}
+
+.nav-mobile {
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 16px;
+  
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid transparent;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
+
+.nav-mobile :hover {
+  color: white !important;
+}
+
+.jumbotron {
+  padding: 7rem;
+  margin-bottom: -2rem;
+  background-color: lightblue;
+}
+
+.btn {
+  background-color: #a0b9c1;
+  margin-top: 20px;
+  padding: 0.7rem 1.2rem;
+  color: black;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+
+.btn-git{
+  background-color: #a0b9c1;
+  border: 2px solid transparent;
+}
+
+
+.btn:hover {
+  color: #a0b9c1;
+  background-color: white;
+}
+
+#about {
+  background-color: rgb(228, 228, 228);
+  padding-bottom: 3rem;
+  height: 500px;
+}
+
+#about p {
+  padding-top: 30px;
+}
+
+#portfolio {
+  background-color: lightblue;
+  height: 800px;
+  padding-bottom: 3rem;
+  
+}
+
+#contact {
+  background-color: rgb(228, 228, 228);
+  height: 600px;
+  
+}
+
+.card-contact {
+  padding: 1.2rem;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid transparent;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.port-card{
+  padding: 20px;
+}
+.name {
+  padding-top: 10px;
+}
+
+.custom-navbar {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid transparent;
+}
+
+.custom-navbar .navbar-nav .nav-item {
+  margin-right: 1.2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.custom-navbar .navbar-nav .nav-item :hover {
+  color: white !important;
+}
+
+.custom-navbar .navbar-nav .active {
+  font-weight: 700;
+  color: #1f1534;
+}
+
+.contact-items {
+  padding-top: 3rem ;
+}
+
+
+@media only screen and (min-width: 601px) {
+  .container-portfolio {
+    width: 50%;
+  
+    padding-top: 40px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container-portfolio {
+    width: 90%;
+
+    padding-top: 2rem;
+  }
+
+  .contact-items {
+    padding-top: 2rem ;
+    padding-bottom: 2rem ;
+  }
+
+  #contact {
+    height: auto;
+  }
+
+  p {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .card-port {
+    margin: 1.2rem;
+  }
+}
+
+.card-img-top {
+  border-radius: 16px;
+  border: 1px solid transparent;
+}
+
+.card-port {
+  margin-top: 1.2rem;
+  border-radius: 16px;
+  
+  backdrop-filter: blur(11.3px);
+  -webkit-backdrop-filter: blur(200px);
+  border: 1px solid transparent;
+}
+
+.port-item {
+  background: rgba(0, 0, 0, 0.40);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid transparent;
+}
+
+.port-text {
+  padding-top: 1.2rem;
+  margin-bottom: -1rem;
+}
+
+.footer_logo {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  text-decoration: none !important;
+}
+
+
+.footer_sosmed, .permalinks {
+  display: flex;
+  justify-content: center;
+}
+
+.permalinks {
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0 auto 3rem;
+  list-style-type:none;
+  padding-left: 2px;
+}
+
+.permalinks a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer_sosmed {
+  gap: 1rem;
+  margin-bottom: 4rem;
+  
+} 
+
+footer a{
+  text-decoration: none;
+}
+
+footer ul :hover, a:hover{
+  color: whitesmoke;
+}
+
+footer{
+  padding-bottom: 20px;
+  background-color: lightblue;
+  font-size: 1rem;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+
+.footer_sosmed a {
+  background: whitesmoke;
+  border: 1px solid transparent;
+  border-radius: 0.7rem;
+  color: black;
+  display: flex;
+  padding: 0.8rem;
+}
+
+
+.footer_copyright {
+  margin-bottom: 4rem;
+}
